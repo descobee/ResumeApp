@@ -1,16 +1,24 @@
-# resume
+# Derek's Resume App
 
-A new Flutter project.
+This is a simple one-screen flutter application built to display basic UI features. 
 
-## Getting Started
+## Codebase Description
+The codebase for this application just consists of 2 classes. The main.dart class and the homepage.dart file. All UI, methods and variables were declared on the homepage.dart file - to make the app as minimalistic as possible.
 
-This project is a starting point for a Flutter application.
+## Design Description
+The design is a very simple design that implemted only four colours - white, two different shades of blueish gray and a dark blue background colour. The application itself is a dark mode application, hence the reason for the design template selected.
 
-A few resources to get you started if this is your first Flutter project:
+## Libraries Used
+There are only 3 libraries used by the application:
+- flutter_svg: To implement the addition of SVG icons.
+- launch_url: Used in launching the links embedded in the application.
+- expandable: Used in implementing some smooth container transistions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features Wish-List
+If I had more time, I would have implemented toggling the application theme between dark and light mode. I also would have made the application a multi-screen application for each resume segment. Something else I considered implementing was to make the profile image to be a slideshow of different images. These and a few others were considered.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Here's a link to the Appetize.io upload
+https://appetize.io/app/rd7t6ydqxgltc4g6qojk4dggi4
+
+Here's a link to the APK
+https://drive.google.com/file/d/1U48VW7_KeR7kch7tE_RAiZKdlH-eOTRs/view?usp=share_link
